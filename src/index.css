@@ -1,0 +1,24 @@
+/** @format */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-primary: #3d8168;
+    --color-primary-dark: #1a4032;
+    --color-secondary: #6c7289;
+    --color-dark: #1c232b;
+    --color-pure-white: #fff;
+    --color-cream: #f2eae2;
+    --font-sans: "Montserrat", sans-serif;
+    --font-serif: "Fraunces", serif;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    color: var(--color-secondary);
+    background-color: var(--color-cream);
+  }
+}
