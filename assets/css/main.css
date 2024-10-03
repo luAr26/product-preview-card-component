@@ -650,12 +650,16 @@ body {
   height: 240px;
 }
 
-.w-\[343px\] {
-  width: 343px;
+.h-full {
+  height: 100%;
 }
 
 .w-full {
   width: 100%;
+}
+
+.max-w-\[343px\] {
+  max-width: 343px;
 }
 
 .flex-col {
@@ -705,6 +709,11 @@ body {
 .object-cover {
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.object-fill {
+  -o-object-fit: fill;
+     object-fit: fill;
 }
 
 .p-6 {
@@ -828,6 +837,10 @@ body {
 
   .xl\:w-\[600px\] {
     width: 600px;
+  }
+
+  .xl\:max-w-\[600px\] {
+    max-width: 600px;
   }
 
   .xl\:flex-\[0_0_300px\] {
